@@ -1,0 +1,16 @@
+for starting jango.
+
+1. python -m venv (name of environment i.e env) // for creating virtual environment.
+2. source env/Scripts/activate // for activate environment.
+3. django-admin startproject (project name i.e carzone) // for starting project in jango.
+4. python manage.py runserver // for starting server.
+5. 127.0.0.1:8000 // ip for starting project on browser.
+
+for creating app or pages for site.
+
+1. python manange.py startapp pages. // for creating pages 
+2. pages.apps.PagesConfig //after creating pages, we will add these pages project>>settings>> Installed_apps
+3. add urls in pages.
+4. create function for view in view file.
+5. creating templates folder then pages in it and then html file in it.
+6. add templates in setting>>templates>>DIRS
